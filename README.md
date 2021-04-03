@@ -1,13 +1,16 @@
-#CORONAVIRUS INFO BOT BR
-![](https://github.com/Angeloabrita/coronavitus-info-br/assetsmd/gif.gif)
+# CORONAVIRUS INFO BOT BR
 
-###Atenção Use o link abaixo caso deseja somente usar o robô;
-https://t.me/coronavirus_info_brbot
+![gif](https://github.com/Angeloabrita/coronavitus-info-br/blob/main/assetsmd/gif.gif)
 
-###SOBRE:
-![](https://img.shields.io/badge/Python-3.6-blue) ![](https://img.shields.io/badge/Telegram bot python-12.7-orange)
+### Atenção Use o link abaixo caso deseja somente usar o robô;
+[https://t.me/coronavirus_info_brbot](https://t.me/coronavirus_info_brbot)
 
-**O Coronavirus info bot** bt é um robo do Telegram desenvolvido para informar as pessoas sobre a pandemia do COVID19 no Brasil usando como base a sua localização
+### SOBRE:
+
+![](https://img.shields.io/badge/Python-3.6-blue) 
+![](https://img.shields.io/badge/Telegram_bot_python-12.7-orange)
+
+**O Coronavirus info bot** é um robô do Telegram desenvolvido para informar as pessoas sobre a pandemia do COVID19 no Brasil usando como base a sua localização
 
 O robô usa como base de dados um arquivo CSV baixado do site [brasil.io](https://brasil.io/dataset/covid19/caso_full/) 
 
@@ -21,16 +24,16 @@ O robô usa como base de dados um arquivo CSV baixado do site [brasil.io](https:
 ```bash
 git clone https://github.com/Angeloabrita/coronavitus-info-br.git`
 ```
-- Recomendo instalar em um ambiente virtual 
+- **Recomendo instalar em um ambiente virtual** 
 ```python
 python -m virtualenv venv
 ```
 
-- Instale as dependencias 
+- **Instale as dependências**
 ```bash
 pip install -u requeriment.txt
 ```
-- execute o comando
+- **execute o comando**
 ```python
 python botmain.py
 ```
